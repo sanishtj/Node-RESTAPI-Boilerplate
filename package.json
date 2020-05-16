@@ -1,0 +1,49 @@
+{
+  "name": "hrs-email-notification",
+  "version": "1.0.0",
+  "description": "The API to use as boilerplate All HRS-Boilerplate API",
+  "main": "app.js",
+  "scripts": {
+    "start": "set DEBUG=app && nodemon app.js",
+    "lint": "eslint app.js controllers/** helpers/** models/** routes/** winston.js",
+    "test": "mocha --timeout 10000 --exit --report lcovonly -- -R spec",
+    "coverage": "nyc --reporter=html --reporter=text npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Health-Record-Stack/email-notification.git"
+  },
+  "keywords": [
+    "healthrecordstack",
+    "email-notification"
+  ],
+  "author": "Sanish Joseph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Health-Record-Stack/email-notification/issues"
+  },
+  "homepage": "https://github.com/Health-Record-Stack/email-notification#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "morgan": "^1.10.0",
+    "rotating-file-stream": "^2.0.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "mocha": "^7.1.1",
+    "nodemon": "^2.0.3",
+    "nyc": "^15.0.1",
+    "sinon": "^9.0.2"
+  }
+}
