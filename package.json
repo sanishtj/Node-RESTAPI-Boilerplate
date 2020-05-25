@@ -1,28 +1,28 @@
 {
-  "name": "hrs-email-notification",
+  "name": "hrs-node-restapi-boilerplate",
   "version": "1.0.0",
   "description": "The API to use as boilerplate All HRS-Boilerplate API",
   "main": "app.js",
   "scripts": {
     "start": "set DEBUG=app && nodemon app.js",
-    "lint": "eslint app.js controllers/** helpers/** models/** routes/** winston.js",
+    "lint": "eslint app.js controllers/** helpers/** routes/** winston.js",
     "test": "mocha --timeout 10000 --exit --report lcovonly -- -R spec",
     "coverage": "nyc --reporter=html --reporter=text npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Health-Record-Stack/email-notification.git"
+    "url": "git+https://github.com/sanishtj/Node-RESTAPI-Boilerplate.git"
   },
   "keywords": [
     "healthrecordstack",
-    "email-notification"
+    "Node-RESTAPI-Boilerplate"
   ],
   "author": "Sanish Joseph",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Health-Record-Stack/email-notification/issues"
+    "url": "https://github.com/sanishtj/Node-RESTAPI-Boilerplate/issues"
   },
-  "homepage": "https://github.com/Health-Record-Stack/email-notification#readme",
+  "homepage": "https://github.com/sanishtj/Node-RESTAPI-Boilerplate#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",

@@ -1,6 +1,6 @@
 const { validationResult } = require("express-validator");
 const apiResponse = require("../helpers/apiResponse");
-const logger = require("../winston");
+
 
 function HRSBoilerplateController() {
   const fetchHRSBoilerplateItems = (req, res) => apiResponse.successResponseWithData(res, "Fetch Succeeded", {});

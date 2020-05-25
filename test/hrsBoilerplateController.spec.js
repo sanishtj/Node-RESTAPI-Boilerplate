@@ -1,17 +1,17 @@
 /* eslint-disable no-useless-catch */
 /* eslint-disable no-undef */
 
-const sinon = require("sinon");
-const chai = require("chai");
+// const sinon = require("sinon");
+// const chai = require("chai");
 
-const HRSBoilerplateController = require("../controllers/hrsBoilerplateController");
-const logger = require("../winston");
+// const HRSBoilerplateController = require("../controllers/hrsBoilerplateController");
+// const logger = require("../winston");
 
-const { expect } = chai;
+// const { expect } = chai;
 /**
  * Seed the database with products.
  */
-const createHRSBoilerplateItems = async () => {};
+// const createHRSBoilerplateItems = async () => {};
 
 /**
  * Connect to a new in-memory database before running any tests.

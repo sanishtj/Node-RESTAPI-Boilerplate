@@ -1,4 +1,3 @@
-const logger = require("../winston");
 
 exports.successResponse = (res, msg) => {
   const data = {
